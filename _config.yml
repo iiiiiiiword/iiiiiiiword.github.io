@@ -1,24 +1,24 @@
 locale                   : "en-US"
-title                    : "WowPage"
+title                    : "Hbby"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Boyu He"
 description              : &description "A clean academic homepage template."
 url                      : ""
 baseurl                  : ""
 repository               : ""
 
 author:
-  avatar           : "1.png"
-  name             : "Your Name"
+  avatar           : "bubu.jpg"
+  name             : "Boyu He (何博宇)"
   pronouns         :
-  bio              : "Student and researcher."
-  location         : "City, Country"
-  employer         : "Institution or Company"
+  bio              : "This too shall pass"
+  location         : "Changsha, China"
+  employer         : "NUDT"
   uri              :
-  email            : "name@example.com"
+  email            : "heboyu@nudt.edu.cn"
 
   arxiv            :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=isoRs9IAAAAJ&hl=zh-CN"
   impactstory      :
   orcid            :
   semantic         :
@@ -28,17 +28,17 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  github           :
+  github           : "iiiiiiiword"
   kaggle           :
   stackoverflow    :
 
-  WeChat           :
+  WeChat           : "images/wechat.jpg"
   linkedin         :
   bilibili         :
   twitter          :
   youtube          :
   zhihu            :
-  XiaoHongShu      :
+  XiaoHongShu      : "https://www.xiaohongshu.com/user/profile/5f81d395000000000100be00"
 
 teaser                   :
 breadcrumbs              : false

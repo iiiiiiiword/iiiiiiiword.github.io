@@ -54,12 +54,20 @@
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
     .experience-logo {
-        width: 60px;
-        height: 60px;
+        width: 72px;
+        height: 72px;
+        min-width: 72px;
+        flex: 0 0 72px;
         margin-right: 20px;
-        border-radius: 8px;
+        padding: 6px;
+        box-sizing: border-box;
+        border: 1px solid #eee;
+        border-radius: 10px;
+        background: #fff;
         object-fit: contain;
+        display: block;
     }
+    
     .experience-info {
         font-family: "Segoe UI", sans-serif;
     }
@@ -370,7 +378,6 @@
             color: #c71585;
             text-decoration: underline;
         }
-
 
 
 

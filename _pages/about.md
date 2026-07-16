@@ -16,8 +16,8 @@ News
 <div class="news-box">
   <ul class="news-list">
 
-<li><span class="news-date"><em>2026.07</em></span> 🚀🚀 DCGS has been submitted to AAAI 2027.</li>
-<li><span class="news-date"><em>2026.06</em></span> 🚀🚀 I began my internship at Huawei.</li>
+<li><span class="news-date"><em>2026.07</em></span> 🎉🎉 DCGS has been submitted to AAAI 2027.</li>
+<li><span class="news-date"><em>2026.06</em></span> 🎉🎉 I began my internship at Huawei.</li>
 <li><span class="news-date"><em>2026.03</em></span> 🎉🎉 StyleGallery has been accepted by CVPR 2026.</li>
 <li><span class="news-date"><em>2026.02</em></span> 🤡🤡 IJCAI has been downgraded to CCF-B</li>
 <li><span class="news-date"><em>2026.02</em></span> 🎉🎉 DCGS has been submitted to IJCAI 2026.</li>

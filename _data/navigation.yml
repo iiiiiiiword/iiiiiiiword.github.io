@@ -10,8 +10,8 @@ main:
   - title: "Publications"
     url: "/#publications"
     
-  - title: "CV-CN"
-    url: "/CV_HBY.pdf"
+  # - title: "CV-CN"
+  #   url: "/CV_HBY.pdf"
 
   # - title: "CV-Cn"
   #   url: "/files/chinese_resume.pdf"

@@ -1,12 +1,48 @@
-# Ignore the contents of the _site directory
+# Jekyll generated files and caches
 _site/
+.jekyll-cache/
+.jekyll-metadata
+.jekyll-last-run
+.sass-cache/
 
-# Ignore the directory for local files during development
+# Local development files
 local/
+.env
+.env.*
+!.env.example
 
-# Ignore the Gemfile that is generated
+# Ruby / Bundler dependencies
+.bundle/
+vendor/bundle/
+vendor/cache/
 Gemfile.lock
 
-# Ingore files created by npm
-node_modules
+# Node.js dependencies and logs
+node_modules/
 package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python and Jupyter caches used by markdown_generator
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.log
+*.tmp
+*.temp

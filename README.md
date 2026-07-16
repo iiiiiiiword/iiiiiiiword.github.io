@@ -1,209 +1,118 @@
-﻿# WowPage
+# Boyu He - Academic Homepage
 
-WowPage is a clean, responsive academic homepage built with Jekyll and adapted from the Academic Pages theme. It is designed for students, researchers, and engineers who want a personal website for introducing their profile, publications, projects, experience, awards, talks, services, and CV.
+This repository contains the source code for my personal academic homepage:
 
-Template is originated from [selen-suyue.github.io](https://selen-suyue.github.io/).
-Example：[wd7ang.github.io](https://wd7ang.github.io).
-## Features
+**Website:** [https://iiiiiiiword.github.io](https://iiiiiiiword.github.io)
 
-- Academic-style homepage with author profile sidebar
-- Single-page navigation for news, experience, publications, projects, awards, services, and talks
-- Custom homepage styling through `assets/css/home.css`
-- Publication filtering on the homepage
-- CV link support through the navigation menu
-- Social profile fields managed from `_config.yml`
-- GitHub Pages compatible Jekyll setup
-- Sitemap and feed support through Jekyll plugins
+## About Me
 
-## Project Structure
+I am Boyu He, a second-year master's student at the College of Computer Science and Technology, National University of Defense Technology (NUDT), advised by Prof. Zhiping Cai.
+
+My current research interests include:
+
+- Image style transfer
+- 3D reconstruction based on 3D Gaussian Splatting
+- Edge detection
+
+I am open to research collaborations and related opportunities.
+
+## Experience
+
+- **Huawei Nanjing Research Institute** - HiSilicon Semiconductor Business Department, Intern, 2026.06 - Present
+- **National University of Defense Technology** - Master's Degree Candidate in Computer Science, 2024.09 - Present
+- **Ocean University of China** - Bachelor's Degree in Information Science and Engineering, 2020.09 - 2024.06
+
+## Featured Publication
+
+### StyleGallery: Training-free and Semantic-aware Personalized Style Transfer from Arbitrary Image References
+
+**Boyu He\***, Yunfan Ye\*, Chang Liu, Weishang Wu, Fang Liu, and Zhiping Cai
+
+Accepted by **CVPR 2026**.
+
+StyleGallery is a training-free and semantic-aware framework for personalized style transfer from arbitrary image references. It adaptively clusters and matches semantic regions without extra masks, enabling fine-grained and interpretable stylization while preserving global content structure and supporting multiple style references.
+
+- [Paper](https://arxiv.org/abs/2603.10354)
+- [Code](https://github.com/iiiiiiiword/StyleGallery)
+
+## Website Contents
+
+The homepage currently includes:
+
+- Personal profile and research interests
+- Latest news
+- Research and internship experience
+- Publications
+- Curriculum vitae
+- Academic and social links
+
+The main content is maintained in the following files:
 
 ```text
-.
-├── _config.yml              # Main site configuration and author metadata
-├── _data/
-│   ├── navigation.yml       # Header navigation links
-│   ├── authors.yml          # Optional author data
-│   └── ui-text.yml          # Theme UI text
-├── _includes/               # Reusable Liquid partials
-├── _layouts/                # Page layout templates
-├── _pages/                  # Main site pages, including the homepage
-├── _sass/                   # Theme Sass source files
-├── assets/                  # CSS, JavaScript, and theme assets
-├── images/                  # Profile, logos, publication images, and other media
-├── markdown_generator/      # Helper scripts/templates for generating markdown content
-├── talkmap/                 # Talk map page assets
-├── Gemfile                  # Ruby/Jekyll dependencies
-├── package.json             # JavaScript build dependencies and scripts
-└── LICENSE
+_config.yml              Personal information and social links
+_pages/about.md           Homepage content
+_data/navigation.yml      Navigation menu
+assets/css/home.css       Homepage styles
+images/                   Profile photo, logos, and publication images
+CV_HBY.pdf                Curriculum vitae
 ```
 
-## Getting Started
+## Local Development
 
-### Prerequisites
+This website is built with Jekyll and is compatible with GitHub Pages.
 
-Install the following tools before running the site locally:
+### Requirements
 
-- Ruby and Bundler
-- Node.js and npm
+- Ruby with DevKit
+- Bundler
 - Git
 
-### Installation
-
-Clone the repository and install dependencies:
+### Install Dependencies
 
 ```bash
-git clone <your-repository-url>
-cd WowPage
 bundle install
-npm install
 ```
 
 ### Run Locally
 
-Start the Jekyll development server:
-
 ```bash
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
 ```
 
-Then open the local URL shown in the terminal, usually:
+Then visit:
 
 ```text
 http://127.0.0.1:4000/
 ```
 
-### Build the Site
-
-Generate the static site:
+### Build the Website
 
 ```bash
 bundle exec jekyll build
 ```
 
-The generated files will be written to `_site/`.
-
-## Customization
-
-### Basic Site Information
-
-Edit `_config.yml` to update the site title, description, URL, author name, biography, affiliation, location, email, avatar, and social links.
-
-Important fields include:
-
-```yaml
-title: "WowPage"
-name: "Your Name"
-description: "A clean academic homepage template."
-author:
-  avatar: "1.png"
-  name: "Your Name"
-  bio: "Student and researcher."
-  location: "City, Country"
-  employer: "Institution or Company"
-  email: "name@example.com"
-```
-
-### Homepage Content
-
-The homepage content is mainly maintained in:
-
-```text
-_pages/about.md
-```
-
-Update this file to edit sections such as news, experience, publications, projects, awards, services, talks, and the introductory text.
-
-### Navigation
-
-Edit the navigation menu in:
-
-```text
-_data/navigation.yml
-```
-
-For example:
-
-```yaml
-main:
-  - title: "News"
-    url: "/#news"
-  - title: "Experience"
-    url: "/#experience"
-  - title: "Pub"
-    url: "/#publications"
-  - title: "CV-En"
-    url: "/files/weidongtang_resume.pdf"
-```
-
-### Images and Media
-
-Place profile photos, organization logos, project images, publication thumbnails, and other visual assets in:
-
-```text
-images/
-```
-
-Reference them from pages using paths such as:
-
-```html
-<img src="images/example.png" alt="Example image">
-```
-
-### JavaScript and CSS
-
-Custom homepage styles can be edited in:
-
-```text
-assets/css/home.css
-```
-
-JavaScript assets are built with npm:
-
-```bash
-npm run build:js
-```
+Generated files are written to `_site/`, which is excluded from Git.
 
 ## Deployment
 
-This site is compatible with GitHub Pages.
+The website is deployed through GitHub Pages from the `main` branch. Pushing updates to this repository triggers a new site build.
 
-A typical deployment workflow is:
-
-1. Push the repository to GitHub.
-2. Open the repository settings on GitHub.
-3. Enable GitHub Pages.
-4. Select the branch and folder used for deployment.
-5. Update `url`, `baseurl`, and `repository` in `_config.yml` if needed.
-
-For a user or organization site, the repository is commonly named:
-
-```text
-<username>.github.io
+```bash
+git add -A
+git commit -m "Update homepage"
+git push
 ```
 
-For a project site, set `baseurl` to the repository name:
+## Contact
 
-```yaml
-url: "https://<username>.github.io"
-baseurl: "/<repository-name>"
-```
-
-## Content Checklist
-
-Before publishing, consider updating:
-
-- Author name, bio, institution, location, and email in `_config.yml`
-- Avatar and profile images in `images/`
-- Navigation links in `_data/navigation.yml`
-- Homepage sections in `_pages/about.md`
-- CV file and CV link
-- Publication metadata, project descriptions, and external links
-- Analytics or site verification settings, if needed
-
-## License
-
-This project is released under the MIT License. See `LICENSE` for details.
+- Email: [heboyu@nudt.edu.cn](mailto:heboyu@nudt.edu.cn)
+- GitHub: [iiiiiiiword](https://github.com/iiiiiiiword)
+- Google Scholar: [Boyu He](https://scholar.google.com/citations?user=isoRs9IAAAAJ)
 
 ## Acknowledgements
 
-We appreciate your use of this template and look forward to your contributions. Contributors are welcome to voluntarily submit homepages built with this template for inclusion in our showcase.
+This website is based on the [Academic Pages](https://github.com/academicpages/academicpages.github.io) Jekyll theme and was adapted from the homepage template by [Yue Su](https://selen-suyue.github.io/).
+
+## License
+
+The website source code is available under the terms of the [MIT License](LICENSE).

@@ -13,7 +13,9 @@
   }
 
   function counterUrl(key, increment) {
-    return API_ROOT + "/" + counterNamespace() + "/" + key + (increment ? "/up" : "");
+    // CounterAPI reads require a trailing slash. Without it the API responds
+    // with a redirect that browsers can reject during a cross-origin fetch.
+    return API_ROOT + "/" + counterNamespace() + "/" + key + (increment ? "/up" : "/");
   }
 
   function readCount(payload) {

@@ -15,7 +15,8 @@ News
 ---------------
 <div class="news-box">
   <ul class="news-list">
-
+    
+<li><span class="news-date"><em>2026.07</em></span> 🎉🎉 DCGS has successfully advanced to the second stage of AAAI27.</li>
 <li><span class="news-date"><em>2026.07</em></span> 🎉🎉 DCGS has been submitted to AAAI 2027.</li>
 <li><span class="news-date"><em>2026.06</em></span> 🎉🎉 I began my internship at Huawei.</li>
 <li><span class="news-date"><em>2026.03</em></span> 🎉🎉 StyleGallery has been accepted by CVPR 2026.</li>
@@ -36,7 +37,7 @@ Experience
       <img src="images/huawei-color.svg" alt="Huawei logo" class="experience-logo">
       <div class="experience-info">
           <strong>Huawei Nanjing Research Institute</strong><br>
-          <em>2026.6 - Present</em><br>
+          <em>2026.6 - 2026.9 (Outstanding Intern)</em><br>
           Haisi Semiconductor Business Department, Internship
       </div>
   </div>

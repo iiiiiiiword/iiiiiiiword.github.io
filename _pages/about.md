@@ -16,7 +16,7 @@ News
 <div class="news-box">
   <ul class="news-list">
     
-<li><span class="news-date"><em>2026.07</em></span> 🎉🎉 DCGS has successfully advanced to the second stage of AAAI27.</li>
+<li><span class="news-date"><em>2026.09</em></span> 🎉🎉 DCGS has successfully advanced to the second stage of AAAI27.</li>
 <li><span class="news-date"><em>2026.07</em></span> 🎉🎉 DCGS has been submitted to AAAI 2027.</li>
 <li><span class="news-date"><em>2026.06</em></span> 🎉🎉 I began my internship at Huawei.</li>
 <li><span class="news-date"><em>2026.03</em></span> 🎉🎉 StyleGallery has been accepted by CVPR 2026.</li>

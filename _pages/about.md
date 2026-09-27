@@ -16,12 +16,12 @@ News
 <div class="news-box">
   <ul class="news-list">
     
-<li><span class="news-date"><em>2026.09</em></span> 🎉🎉 DCGS has successfully advanced to the second stage of AAAI27.</li>
-<li><span class="news-date"><em>2026.07</em></span> 🎉🎉 DCGS has been submitted to AAAI 2027.</li>
+<li><span class="news-date"><em>2026.09</em></span> 🎉🎉 xxx has successfully advanced to the second stage of AAAI27.</li>
+<li><span class="news-date"><em>2026.07</em></span> 🎉🎉 xxx has been submitted to AAAI 2027.</li>
 <li><span class="news-date"><em>2026.06</em></span> 🎉🎉 I began my internship at Huawei.</li>
 <li><span class="news-date"><em>2026.03</em></span> 🎉🎉 StyleGallery has been accepted by CVPR 2026.</li>
 <li><span class="news-date"><em>2026.02</em></span> 🤡🤡 IJCAI has been downgraded to CCF-B</li>
-<li><span class="news-date"><em>2026.02</em></span> 🎉🎉 DCGS has been submitted to IJCAI 2026.</li>
+<li><span class="news-date"><em>2026.02</em></span> 🎉🎉 xxx has been submitted to IJCAI 2026.</li>
 <li><span class="news-date"><em>2025.11</em></span> 🎉🎉 StyleGallery has been submitted to CVPR 2026.</li>
 <li><span class="news-date"><em>2024.09</em></span> 🎉🎉 I began my graduate studies at NUDT.</li>
 <li><span class="news-date"><em>2024.06</em></span> 🎉🎉 I have successfully completed my undergraduate studies!.</li>

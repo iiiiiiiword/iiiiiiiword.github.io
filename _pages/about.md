@@ -9,13 +9,15 @@ redirect_from:
 ---
 <h1 class="main-heading">Welcome to my Homepage!</h1>
 
-Hi! I am a second-year master's student and I am currently studying at National University of Defense Technology with [Prof. Zhiping Cai](https://scholar.google.com/citations?hl=zh-CN&user=uVwk4XIAAAAJ). My current research focuses on **Style Transfer**, **3D Reconstruction** Based on 3DGS and **Edge Detection**. Feel free to reach out if you are interested in collaboration or potential opportunities.
+Hi! I am a second-year master's student and I am currently studying at National University of Defense Technology with [Prof. Zhiping Cai](https://scholar.google.com/citations?hl=zh-CN&user=uVwk4XIAAAAJ). My current research focuses on **Style Transfer**, **3D Reconstruction** Based on 3DGS and **Embodied Intelligence**. 
+Feel free to reach out if you are interested in collaboration or potential opportunities.
 
 News
 ---------------
 <div class="news-box">
   <ul class="news-list">
-    
+
+<li><span class="news-date"><em>2026.09</em></span> 🎉🎉 One paper been submitted to CVPR 2027.</li>
 <li><span class="news-date"><em>2026.09</em></span> 🎉🎉 One paper has successfully advanced to the second stage of AAAI27.</li>
 <li><span class="news-date"><em>2026.07</em></span> 🎉🎉 One paper has been submitted to AAAI 2027.</li>
 <li><span class="news-date"><em>2026.06</em></span> 🎉🎉 I began my internship at Huawei.</li>
